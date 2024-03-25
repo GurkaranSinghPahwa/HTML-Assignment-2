@@ -1,0 +1,231 @@
+/* Gurkaran Singh Pahwa 8913059 */
+html{
+    font: normal normal normal 20px/1.5 'Times New Roman', serif;
+}
+
+h1,h2{
+    font-variant: small-caps;
+    color: rgb(0, 0, 139);
+}
+
+figcaption{
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.3rm;
+}
+
+q{
+    font-style: italic;
+    font-family: cursive;
+    font-size: 1.3rem;
+}
+
+footer p{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(0, 0, 139);
+}
+
+header, footer{
+    text-align: center;
+    border: 0.1rem solid #FE9555;
+    background-image: linear-gradient(yellow, #FE9555);
+
+}
+footer{
+    background-image: linear-gradient(#FE9555,yellow);
+}
+
+/* Height, Width & Max Width */
+body{
+    width: 90%;
+    max-width: 1200px;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-section{
+    text-align: center ;
+    padding: 1rem;
+    background-color: hsla(22.72, 98.83%, 66.47%, 1);
+}
+.main-section figure{
+    width: 70%;
+    height: auto;
+    
+}
+
+.main-section-figure{
+    width: 90%;
+    height: auto;
+    padding: 0.5rem;
+    margin: 1rem auto;
+
+}
+.main-section-figure img{
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width: 60%;
+}
+
+iframe{
+    width: 70%;
+    height:25rem;
+    padding: 1rem;
+    border: 0.1rem solid rgb(255, 102, 0);
+    border-radius: 2rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #f60;
+    
+}
+
+#bio{
+    text-align: left;
+}
+#quote{
+    padding: 1rem;
+    border: 0.1rem solid #f50;
+    box-shadow: 0.1rem 0.1rem 0.1rem orangered;
+}
+#relative-path-image{
+    border: 0.1rem solid rgb(0, 0, 128);
+    color: rgb(0,0,128);
+    background-color: hsla(22.72, 98.83%, 66.47%, 1);
+}
+#absolute-path-image{
+    border: 0.1rem solid rgb(255, 69, 0) ;
+    color: rgb(255, 69, 0);
+    background-color: hsla(22.72, 98.83%, 66.47%, 1);
+}
+.navbar {
+    background-color: #333;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: rgb(121, 245, 212);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f60;
+}
+
+form {
+    background-color: hsla(22.72, 98.83%, 66.47%, 1);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 20px 10px 21px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 0 auto;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="color"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.navbar {
+   background: hsla(22.72, 98.83%, 66.47%, 1); 
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar li {
+    padding: 10px;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+.navbar a:hover {
+    color: lightblue;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+@media screen and (min-width: 360px) {
+    h1{
+        font-size: 1.5em !important;
+    }
+    body{
+        width: 90%;
+        max-width: 1100px;
+        padding: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 95%;
+        border: 1px solid #ddd;
+      }
+      th, td {
+        text-align: center;
+        /* padding: 8px; */
+      }
+      ul{
+        justify-content: space-evenly
+      }
+  }
